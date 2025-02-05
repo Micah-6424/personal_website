@@ -1,0 +1,49 @@
+$background-color: #246195;
+$main-text-color:  #EBF2FA;
+$subtitle-color: #97B6CE;
+
+nav {
+    #name_in_nav_text {
+        
+        font-weight: bold;
+        color: $background-color;
+        font-size: 2em;
+        position: relative;
+        left: 3em;
+        top: .25em;
+    }
+    .navbar-nav:not(#name_in_nav) {
+        
+        
+        position: absolute;
+        right: 1em;
+    
+        .nav-link {
+            &:hover{
+                color:purple;
+                text-decoration: underline;
+            }
+            color: $background-color;
+            // font-weight: 300;
+            font-size: larger;
+            color: complement($background-color);
+        }
+    
+        #smile_icon {
+            position: absolute !important;
+            top: -1.2em;
+            right: -.8em;
+        } 
+    }    
+}
+
+
+footer {
+    p {
+        color: $subtitle-color;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+    }
+}

@@ -1,0 +1,34 @@
+nav #name_in_nav_text {
+  font-weight: bold;
+  color: #246195;
+  font-size: 2em;
+  position: relative;
+  left: 3em;
+  top: 0.25em;
+}
+nav .navbar-nav:not(#name_in_nav) {
+  position: absolute;
+  right: 1em;
+}
+nav .navbar-nav:not(#name_in_nav) .nav-link {
+  color: #246195;
+  font-size: larger;
+  color: #955824;
+}
+nav .navbar-nav:not(#name_in_nav) .nav-link:hover {
+  color: purple;
+  text-decoration: underline;
+}
+nav .navbar-nav:not(#name_in_nav) #smile_icon {
+  position: absolute !important;
+  top: -1.2em;
+  right: -0.8em;
+}
+
+footer p {
+  color: #97B6CE;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}/*# sourceMappingURL=nav_footer.css.map */

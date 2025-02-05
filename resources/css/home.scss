@@ -1,0 +1,84 @@
+$background-color: #246195;
+$main-text-color:  #EBF2FA;
+$subtitle-color: #97B6CE;
+
+body {
+    background-color:  $background-color;
+    header {
+        h1 {
+            color: $main-text-color;
+        }
+    }
+    
+    
+    main {
+    display: flex;
+    justify-content: center;
+        #main_container {
+            position: relative;
+            border-radius: 1em;
+            top: 3.5em;
+            width: 95%;
+            height: 75vh;
+            background-color: white;
+            box-shadow: #97B6CE 2px 3px 6px 4px;
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .left {
+                float: left;
+                // display: block;
+                // width: 60%;
+                #main_img {
+                    $img_height:80%;
+                    
+                    height: $img_height; 
+                    width: auto;
+    
+                    left: 4em;
+                    position: absolute;
+                    top: calc(50% - 1/2 * $img_height);
+                }
+            }
+            
+
+            .right {
+                width: 50%;
+                float: right;
+                position: absolute;
+                left: 40%;
+                // font-size: 7ch;
+                h1 {
+                    text-align: center;
+                    color: $background-color;
+                }
+
+                hr {
+                    border: none;
+                    border-top:5px dotted rgb(255, 71, 102);
+                    // border: top dashed;
+                }
+
+                p {
+                    color: complement($color: $background-color);
+                }
+            }
+
+            #resume_link {
+                position: absolute;
+                bottom: 2em;
+                right: 3em;
+                // padding: 1em 3em;
+                // background-color: rgb(255, 71, 102);
+                // text-decoration: none;
+                // color: white;
+
+                // border-radius: 5px;
+            }
+        }
+    }
+    
+    
+}
+

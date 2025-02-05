@@ -1,0 +1,54 @@
+body {
+  background-color: #246195;
+}
+body header h1 {
+  color: #EBF2FA;
+}
+body main {
+  display: flex;
+  justify-content: center;
+}
+body main #main_container {
+  position: relative;
+  border-radius: 1em;
+  top: 3.5em;
+  width: 95%;
+  height: 75vh;
+  background-color: white;
+  box-shadow: #97B6CE 2px 3px 6px 4px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+body main #main_container .left {
+  float: left;
+}
+body main #main_container .left #main_img {
+  height: 80%;
+  width: auto;
+  left: 4em;
+  position: absolute;
+  top: 10%;
+}
+body main #main_container .right {
+  width: 50%;
+  float: right;
+  position: absolute;
+  left: 40%;
+}
+body main #main_container .right h1 {
+  text-align: center;
+  color: #246195;
+}
+body main #main_container .right hr {
+  border: none;
+  border-top: 5px dotted rgb(255, 71, 102);
+}
+body main #main_container .right p {
+  color: #955824;
+}
+body main #main_container #resume_link {
+  position: absolute;
+  bottom: 2em;
+  right: 3em;
+}/*# sourceMappingURL=home.css.map */

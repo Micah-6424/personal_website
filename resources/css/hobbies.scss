@@ -1,0 +1,32 @@
+$background-color: #246195;
+$main-text-color:  #EBF2FA;
+$subtitle-color: #97B6CE;
+
+
+body {
+    background-color: $background-color;
+}
+
+.center {
+
+    h3 {
+        color: $subtitle;
+    }
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, -50%);
+    color: #EBF2FA;
+
+
+    display: flex;
+    .card_custom {
+        margin-left: 10em;
+        width: 14em;
+        background-color: red;
+    }
+}
+
+.card_custom {
+    background-color: red !important;
+}

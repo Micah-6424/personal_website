@@ -1,0 +1,9 @@
+.card_img {
+  transition: 0.3s;
+  position: absolute;
+  bottom: -10em;
+}
+.card_img:hover {
+  width: 500px;
+  z-index: 100;
+}/*# sourceMappingURL=projects.css.map */

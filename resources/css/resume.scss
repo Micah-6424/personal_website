@@ -1,0 +1,15 @@
+$background-color: #246195;
+$main-text-color:  #EBF2FA;
+$subtitle-color: #97B6CE;
+
+body {
+    background-color: $background-color;
+    color: $main-text-color;
+}
+#resume_container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
